@@ -1,0 +1,20 @@
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: blue !important;
+}
+.form-control.bs5:focus{
+	    box-shadow: inset 0 0.0625rem 0.0625rem rgba(0,0,0,.075),0 0 0.5rem rgba(13,110,253,.6);
+    }
+    .form-control:focus{
+	    box-shadow: inset 0 0.0625rem 0.0625rem rgba(0,0,0,.075),0 0 0.5rem rgba(102,175,233,.6);
+    }
+    button.bs5:focus,
+btn.bs5:focus{
+	    box-shadow: inset 0 0.0625rem 0.0625rem rgba(0,0,0,.075),0 0 0.5rem rgba(13,110,253,.6);
+    }
+    button:focus,
+    .btn:focus{
+	    box-shadow: inset 0 0.0625rem 0.0625rem rgba(0,0,0,.075),0 0 0.5rem rgba(102,175,233,.6);
+    }
+    

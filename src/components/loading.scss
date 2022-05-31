@@ -1,0 +1,26 @@
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1029;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & .content {
+    background: #fff;
+    margin: 0;
+    display: inline-block;
+
+    padding: 10px;
+    border-radius: 5px;
+    & .spinner-border {
+      // width: $spinner-width;
+      // height: $spinner-height;
+      vertical-align: middle;
+      // border: $spinner-border-width solid currentColor;
+    }
+  }
+}
